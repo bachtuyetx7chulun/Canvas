@@ -9,7 +9,7 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'dist'),
     publicPath: '/dist/',
-    filename: 'bundle.[hash].js',
+    filename: 'bundle.js',
   },
   target: 'node',
   module: {
